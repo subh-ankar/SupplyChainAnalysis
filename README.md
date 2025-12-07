@@ -1,97 +1,96 @@
-#📦 Supply Chain Performance Dashboard
+# 📦 SkyLine Logistics: Supply Chain Performance Dashboard
 
-SkyLine Logistics – Global Operations
-Role: Data Analyst, Supply Chain
-Overview
+**Data Analyst, Global Operations Role**
 
-SkyLine Logistics manages multi-region distribution for several product lines.
-Before this project, sales and operations teams were relying on separate spreadsheets, which made it difficult to understand:
 
-How sales were trending month to month
+## ✨ Project Overview: Solving Supply Chain Visibility
 
-Which product categories were actually profitable
+SkyLine Logistics manages multi-region distribution for several product lines. Before this project, sales and operations teams relied heavily on disparate spreadsheets, creating significant challenges in understanding key performance indicators (KPIs).
 
-How delivery performance differed by region
+The core visibility gaps were:
 
-Where operational delays were affecting margin
+* How **sales were trending** month-to-month.
+* Which **product categories** were actually **profitable**.
+* How **delivery performance** differed by region.
+* Where **operational delays** were affecting margin.
 
-To address this, I built an integrated Tableau dashboard that centralizes the most important supply-chain KPIs in one place.
+To solve this, I designed and built an **integrated Tableau dashboard** that centralizes the most important supply-chain KPIs into a single source of truth for regional and operations managers.
 
-Project Goals
+---
 
-The dashboard was designed to help regional and operations managers:
+## 🎯 Project Goals
 
-Track monthly sales performance with clear trend indicators
+The dashboard was specifically designed to empower managers to:
 
-Compare profit margins across product categories
+* **Track monthly sales performance** with clear trend indicators.
+* **Compare profit margins** across product categories quickly.
+* Understand the direct influence of **delivery times** on overall profit.
+* **Quickly evaluate KPIs** across all markets without switching tools.
 
-Understand how delivery times influence profit
+---
 
-Quickly evaluate KPIs across markets without switching tools
+## 📊 Dashboard Contents & Design
 
-Dashboard Contents
-1. Monthly Sales Trend (with 3-Month Moving Average)
+The final dashboard features four linked, interactive views, with all filters synced across visuals for a consistent global assessment.
 
-Shows monthly sales volume and smooths fluctuations with a moving average.
-This view makes it easier to spot seasonal patterns and identify growth or decline periods.
+### 1. Monthly Sales Trend (with 3-Month Moving Average)
 
-2. Profit Margin by Product Category
+* **Purpose:** Shows raw monthly sales volume and utilizes a **3-Month Moving Average** to smooth fluctuations.
+* **Value:** Makes it easier to spot underlying seasonal patterns and confirm stable growth or decline periods, providing a more reliable long-term trend indicator than raw data.
 
-Highlights which categories contribute the most to margin and which ones need review due to low profitability.
+### 2. Profit Margin by Product Category
 
-3. Profit vs Delivery Performance (Market Comparison)
+* **Purpose:** A chart highlighting profitability across the product portfolio.
+* **Value:** Highlights which categories contribute the **most to margin** and identifies underperforming categories that require operational or pricing review due to low profitability.
 
-Scatter plot comparing:
+### 3. Profit vs. Delivery Performance (Market Comparison)
 
-Average delivery days
+* **Visual:** A **scatter plot** used for comparative analysis.
+* **Metrics:** Compares **Average Delivery Days** (X-axis) against **Profit per Market** (Y-axis).
+* **Value:** Critically useful for flagging markets where delays (high average delivery days) are showing a clear correlation with reduced profitability.
 
-Profit per market
+### 4. Regional KPI Summary
 
-Useful for flagging markets where delays are impacting profitability.
+* **Visual:** A quick, high-level card view.
+* **Metrics:** **Total Sales**, **Total Profit**, **Profit Margin %**, and **Average Delivery Days**.
+* **Value:** Provides an instant snapshot of performance across all regions, filterable by market.
 
-4. Regional KPI Summary
+> **❗ PRO TIP:** Include an image here! ``
+>
+> **Link to Live Dashboard:** If hosted on Tableau Public, link it here: `[Link to Tableau Public Dashboard]`
 
-Quick view of:
+---
 
-Total Sales
+## 🛠️ Technology Stack
 
-Total Profit
+| Category | Tool | Description |
+| :--- | :--- | :--- |
+| **Visualization** | **Tableau** | Used for dashboard build, calculated fields, and KPI visualization. |
+| **Data Cleaning** | **SQL** | Utilized for cleaning, aggregating, and preparing the raw supply chain and sales data. |
+| **Data Preparation** | **Excel** | Used for initial structuring, validation, and minor data preparation steps. |
 
-Profit Margin %
+---
 
-Average Delivery Days
+## 💡 Key Insights & Takeaways
 
-Filters are synced across all visuals for a consistent view.
+The centralized dashboard immediately surfaced actionable insights that were previously hidden in manual reports:
 
-Tools Used
+* The moving average successfully revealed a **stable, underlying upward trend** in sales that was obscured by monthly volatility in the raw data.
+* There is a clear correlation: **Markets with faster delivery times generally posted stronger profit margins.**
+* The margin view highlighted that a few product categories generated **strong sales volume but weak margins**, indicating they need an operational or cost review.
+* Specific markets were consistently **underperforming in delivery SLAs**, which directly aligned with the markets showing the lowest profitability.
 
-Tableau for dashboard build and KPI visualization
+---
 
-Excel for initial data preparation
+## 📈 Business Impact
 
-SQL for cleaning and aggregating data
+This dashboard served as the foundation for modernizing SkyLine's operational reporting, replacing several siloed, manual reports and providing a single source of information for both sales and operations.
 
-Insights
+The key outcomes were:
 
-A few takeaways that were surfaced through the dashboard:
+* **Faster Month-End Reviews:** Review cycles were significantly reduced due to instant, centralized data access.
+* **Clearer Visibility:** Teams gained clear visibility into specific performance gaps (e.g., which markets and products require intervention).
+* **Confident Decision-Making:** Improved confidence in decisions related to inventory forecasting and logistics planning.
+* **Better Communication:** Regional reviews now focus on data-driven conversations rather than data compilation.
 
-The moving average revealed a stable upward trend that wasn’t visible in the raw monthly data.
-
-Markets with faster delivery times generally posted stronger margins.
-
-A couple of product categories generated strong sales but weak margins, suggesting operational review.
-
-Some markets consistently underperformed in delivery SLAs, which aligned with lower profitability.
-
-Impact
-
-The dashboard replaced several manual reports and provided a single source of information for both sales and operations.
-Teams now have:
-
-Faster month-end review cycles
-
-Clearer visibility into performance gaps
-
-More confident decision-making around inventory and logistics
-
-Better-quality conversations during regional reviews
+---
