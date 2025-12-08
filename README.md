@@ -18,7 +18,7 @@ My goal was to shut down the spreadsheet chaos and deliver a single, undeniable 
 
 I built a core, interactive Tableau dashboard to integrate all crucial supply-chain and sales KPIs. This wasn't just about putting numbers on a screen; it was about connecting delivery performance directly to profit, which the teams couldn't do before.
 
-### Key Dashboard Views
+### 🎯 Key Dashboard Views
 
 The dashboard focuses on four views, all linked and filtered dynamically:
 
@@ -31,30 +31,30 @@ The dashboard focuses on four views, all linked and filtered dynamically:
 
 ---
 
-## The Stack I Used
+## Key Insights Delivered
 
-I stuck to the essentials to get this done quickly and reliably:
+The dashboard provided immediate, actionable findings that empowered specific, targeted decisions:
 
-| Category | Tool | Why I Used It |
-| :--- | :--- | :--- |
-| **Visualization** | **Tableau** | Best-in-class for interactive, executive-ready dashboards. |
-| **Data Cleaning** | **SQL** | Used for efficient, bulk aggregation and cleaning of historical data before it touched the visualization layer. |
-| **Data Prep** | **Excel** | Used briefly for initial data inspection and validation before migration to SQL. |
+### 1️⃣ Delivery Performance
+* Late deliveries were **strongly correlated with specific shipping modes and regions**, allowing logistics to focus their efforts.
+* The **“Standard Class”** shipping mode accounted for the highest delay risk.
+* We were able to pinpoint **specific states/regions** that consistently underperformed in delivery times.
+
+### 2️⃣ Market-Level Profitability
+* **APAC and Europe** were confirmed as the highest profit-per-order markets.
+* **LATAM** showed strong sales volume but shockingly low margins, clearly signaling a need for a deep dive into cost inefficiencies or pricing strategy in that region.
+
+### 3️⃣ Product Category Margin Analysis
+* **Technology and Office Supplies** delivered the strongest, most reliable profit margins.
+* We identified certain product sub-categories that drove **negative margins** due to excessive discounting, prompting a review of the sales team's promo strategy.
+
+### 4️⃣ Monthly Revenue Trend
+* The analysis confirmed **strong seasonality** in our revenue cycle, allowing for better inventory planning.
+* The 3-month moving average was essential for **smoothing volatility** and providing stable, confident reporting to the executive team.
 
 ---
 
-## 📈 Real Insights That Drove Change
-
-The moment this dashboard went live, it provided immediate, actionable findings:
-
-* **Proof Point:** The moving average confirmed the business had a robust, stable growth trajectory that was previously missed.
-* **The Cost of Delay:** The data validated the hypothesis: **Faster delivery times are directly correlated with stronger profit margins.** This provided the leverage needed to push for logistics improvements.
-* **Operational Review Targets:** We identified two product categories that were great for sales numbers but terrible for the bottom line, immediately flagging them for cost-of-goods review.
-* **Accountability:** The dashboard pinpointed specific markets that consistently failed to meet delivery SLAs, allowing managers to focus their energy on clear performance gaps.
-
----
-
-## 🏆 Impact on the Business
+## Impact on the Business
 
 This project was more than just a reporting change; it changed *how* the teams worked.
 
@@ -63,3 +63,4 @@ This project was more than just a reporting change; it changed *how* the teams w
 * **Single Source of Truth:** We retired several manual reports, streamlining our entire reporting infrastructure.
 
 ---
+
