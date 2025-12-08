@@ -27,7 +27,7 @@ The dashboard focuses on four views, all linked and filtered dynamically:
 3.  **Profit vs. Delivery Performance:** This is the most crucial view. It’s a scatter plot that proves the business case: **where average delivery days are high, profit per market is low.** It visually flags markets that need urgent operational review.
 4.  **Regional KPI Summary:** A quick-glance card summarizing Sales, Profit Margin %, and Avg. Delivery Days—the fastest way for a manager to check the pulse of their region.
 
-> **❗ PROJECT ARTIFACT:** The full Tableau workbook (`Your_Project_Name.twbx`) is available in this repo.
+
 
 ---
 
